@@ -1,0 +1,16 @@
+
+{
+  "name": "ssp-istanbul-app",
+  "description": "a simple express app for demonstrating testing and code coverage",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.x.x"
+  },
+  "private": true,
+  "main": "./test.js",
+  "scripts": {
+    "start": "node ./test.js",
+    "coverage": "istanbul cover ./test.js",
+    "cover": "istanbul cover ./*.js"
+  }
+}
