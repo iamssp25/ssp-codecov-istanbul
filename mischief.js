@@ -1,5 +1,6 @@
 'use strict';
 
+
 function creditAccount(account, amount, description) {
 	const transaction = {
 		value : Math.abs(amount), // ensures the amount being added is positive
